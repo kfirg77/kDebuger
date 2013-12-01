@@ -1,0 +1,120 @@
+#kDebug{
+    border: 0 solid #0C385A;
+    /*color: #FFFFFF;*/
+    font-size: 11px;
+    height: 300px;
+    position: fixed;
+    width: 400px;
+    z-index: 1000;
+    bottom: -300px;
+    left: 0px;
+    /*opacity: 0.9;*/
+}
+
+/*
+#kDebug pre, 
+#kDebug code p{
+    background: #9ABECF;
+    height: 270px;
+    opacity: 1.00 !important;
+    
+}*/
+
+#kDebug span.text{
+    color: #ffffff;
+}
+
+#kDebug span.text pre{
+    color: #000 !important;
+}
+
+#kDebug div.kDebugToggle{
+    background: url("../images/arrow-up-icon.png") no-repeat scroll 1px 3px #0C385A;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+    height: 28px;
+    margin-top: -28px;
+    position: absolute;
+    width: 28px;
+    z-index: 10; 
+}
+
+#kDebug div.kDebugToggleActive{
+    background: url("../images/arrow-down-icon.png") no-repeat scroll 1px 3px #0C385A;
+    background-color: #0C385A;
+}
+
+#kDebug div.kDebugToggle-content{    
+    border-left: 0 solid #0C385A;
+    border-right: 30px solid #0C385A;
+    border-top: 2px solid #0C385A;
+    padding: 4px 0 0 12px;
+    background-color: #0c385a;
+    border-top-right-radius:4em;
+    height: 300px;    
+}
+
+#kDebug div.kDebugToggle-content .header{
+    padding-left: 22px;
+    border-bottom: 1px solid #6BA5C2;
+    
+}
+
+#kDebug div.kDebugToggle-content .header a{
+    color: #ffffff;
+}
+
+#kDebug div.kDebugToggle-content a.title{
+    color: #fff;
+    text-transform: capitalize;
+}
+#kDebug div.kDebugToggle-content a:hover{
+    text-decoration: underline;
+}
+
+
+#kDebug .contentHolder{
+    overflow: hidden;
+    position:relative;
+}
+
+/******************kDebugAccordion********************/
+#kDebug #kDebugAccordion{
+    font-size: 14px;
+    padding: 7px;
+    overflow: hidden;
+}
+
+#kDebug #kDebugAccordion div.hr{
+    width: 96%;
+    background-color: #FFFFFF;
+    height: 1px;
+}
+
+#kDebug #kDebugAccordion .accord-header{
+    font-size: 18px;
+    color: #fff;
+}
+
+#kDebug #kDebugAccordion .accord-header:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+#kDebug #kDebugAccordion .accord-content {
+    display: none;
+    font-size: 14px;
+}
+
+/*#kDebug #kDebugAccordion .accord-content ul{
+    margin-left: 10px;
+    clear: both;
+}
+
+#kDebug #kDebugAccordion .accord-content ul li{
+    background: #0070a9;
+    margin-bottom: 2px;
+    font-size: 12px;
+}*/
+/******************kDebugAccordion********************/
