@@ -6,7 +6,7 @@ Show information about the current page
 Usage: 
 
   You can use this plugin to manually log data. 
-
+  
   $tmp=array('Arr A'=>1);
   kDebuger::log($tmp);
 
