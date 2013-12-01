@@ -4,18 +4,31 @@ kDebuger
 Show information about the current page
 
 Usage: 
+========
 
-  You can use this plugin to manually log data. 
+You can use this plugin to manually log data. 
 
-  $tmp=array('Arr A'=>1);
-  kDebuger::log($tmp);
+$tmp=array('Arr A'=>1);
+<br>
+kDebuger::log($tmp);
 
-  $tmp=array('Arr B'=>2);
-  kDebuger::log($tmp);    
+<br>
+<br>
 
-  kDebuger::log('A');
-  kDebuger::log('B');
-  kDebuger::log('C');
+$tmp=array('Arr B'=>2);
+<br>
+kDebuger::log($tmp);    
 
-  kDebuger plugin print array in slider ander
-  title call Filter
+<br>
+<br>
+
+kDebuger::log('A');
+<br>
+kDebuger::log('B');
+<br>
+kDebuger::log('C');
+
+<br>
+<br>
+
+kDebuger plugin print array in slider ander title call Filter
