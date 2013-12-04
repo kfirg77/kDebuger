@@ -28,8 +28,11 @@ Text Domain: kDebuger
  *   title call Filter
  */
 
-if(is_admin())
+
+if(is_admin()){
+    require_once plugin_dir_path(__FILE__).'/kDebugerSetting.php';
     return;
+}
 
 if ( !defined('ABSPATH') )
 	die('-1');
